@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- title for web page -->
+
+    <title>Sample Web page</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link> is used to refer to external stylesheet -->
+
+    <link href="samplweb.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+        <p>Header</p>
+
+    </header>
+
+    <section>
+
+        <nav>
+
+            <p>Left Navigation</p>
+
+        </nav>
+
+        <aside>
+
+            <p>Content</p>
+
+        </aside>
+
+    </section>
+
+    <footer>
+
+        <p>Footer</p>
+
+    </footer>
+
+</body>
+
+</html>
+
+********************************
+
+sampleweb.css :
+
+/* style for header */
+
+header{
+
+height: 150px;
+
+width: 100%;
+
+background-color: lightblue;
+
+border-radius: 10PX;
+
+text-align: center;
+
+margin-top:-20px;
+
+}
+
+/* style for p */
+
+p{
+
+padding-top: 70px;
+
+font-weight: Bold;
+
+font-size: 25px;
+
+color: white;
+
+}
+
+/* style for nav */
+
+nav{
+
+width: 30%;
+
+height: 320px;
+
+border-radius: 10px;
+
+background-color: orange;
+
+text-align:center;
+
+vertical-align: middle;
+
+float: left;
+
+left:0;
+
+margin: 5px;
+
+}
+
+/* style for aside */
+
+aside{
+
+width: 923px;
+
+height: 320px;
+
+border-radius: 10px;
+
+background-color: gray;
+
+text-align:center;
+
+vertical-align: middle;
+
+float: left;
+
+margin-top: 5px;
+
+}
+
+/* style for footer */
+
+footer{
+
+height: 160px;
+
+width: 100%;
+
+background-color: lightgreen;
+
+color: white;
+
+border-radius: 10PX;
+
+text-align: center;
+
+clear: both;
+
+}
